@@ -1,0 +1,23 @@
+body{
+    background-color: burlywood;
+    align-items: center;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+textarea {
+    border: black;
+    border-radius: 2px;
+    background-color: darkgray;
+}
+button {
+    color: crimson;
+    cursor: pointer;
+    background-color: cornsilk;
+    b
+}
+
+

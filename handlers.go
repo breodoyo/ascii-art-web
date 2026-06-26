@@ -28,9 +28,9 @@ func HomeHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	
-	tmpl, err := template.ParseFiles("templates/index.html") 
+	tmpl, err := template.ParseFiles("template/index.html") 
 		if err != nil {
-			http.Error(w, "templates not found", http.StatusNotFound)
+			http.Error(w, "template not found", http.StatusNotFound)
 			return
 	}
 	if err := tmpl.Execute(w, nil); err != nil {
@@ -68,9 +68,9 @@ func AsciiHandler(w http.ResponseWriter, r *http.Request) {
 		Banner: banner,
 		Result: asciiText,
 	}
-	tmpl, err := template.ParseFiles("templates/index.html") 
+	tmpl, err := template.ParseFiles("template/index.html") 
 		if err != nil {
-			http.Error(w, "templates not found", http.StatusNotFound)
+			http.Error(w, "template not found", http.StatusNotFound)
 			return
 	}
 	if err := tmpl.Execute(w, data); err != nil {

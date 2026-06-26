@@ -8,7 +8,7 @@ import (
 func main() {
 	http.HandleFunc("/", HomeHandler)
 	http.HandleFunc("/ascii-art", AsciiHandler)
-
+//serves the css file
 	http.Handle("/static/",
 		http.StripPrefix("/static/",
 			http.FileServer(http.Dir("static"))))

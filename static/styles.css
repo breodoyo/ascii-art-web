@@ -17,7 +17,14 @@ button {
     color: crimson;
     cursor: pointer;
     background-color: cornsilk;
-    b
+    
+    
+}
+pre {
+    background-color: darkslategrey;
+    font: 500;
+    text-decoration: whitesmoke;
+    color: whitesmoke;
 }
 
 

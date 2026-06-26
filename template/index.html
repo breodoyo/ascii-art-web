@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8"/>
+           <title>ASCII-ART-WEB</title>
+           <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <h1>Ascii Art Generator</h1>
+        <form action="/ascii-art" method="POST">
+            <textarea name="text" row="5" cols="50" placeholder="Write something here.."></textarea>
+            
+            <br><br>
+            <input type="radio" name="banner" value="standard" checked>Standard
+            <input type="radio" name="banner" value="shadow">Shadow
+            <input type="radio" name="banner" value="thinkertoy">thinkertoy
+
+            <br><br>
+            <button type="submit">Generate</button>
+        </form>
+        <hr>
+        <prev>{{.Result}}</prev>
+    </body>
+</html>

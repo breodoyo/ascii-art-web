@@ -66,7 +66,7 @@ func GenerateASCII(text, banner string) (string, error) {
 		}
 	}
 
-	// 3. Load the banner — note the "/" between folder and filename.
+	// 3. Load the banner 
 	bannerFile := "banners/" + banner + ".txt"
 	bannerMap, err := LoadBanner(bannerFile)
 	if err != nil {

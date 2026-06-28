@@ -12,19 +12,31 @@ textarea {
     border: black;
     border-radius: 2px;
     background-color: darkgray;
+    height: 100px;
+    width: 25cm;
+    font-size: 20px;
+    
 }
 button {
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
     color: crimson;
+    background-color: rgb(11, 31, 36);
     cursor: pointer;
-    background-color: cornsilk;
-    
+    border: none;
+    border-radius: 5px;
     
 }
+button:hover {
+    background-color: brown;
+}
+
 pre {
-    background-color: darkslategrey;
+    background-color: rgb(67, 46, 116);
     font: 500;
-    text-decoration: whitesmoke;
-    color: whitesmoke;
+    text-decoration: white
+
 }
 
 
